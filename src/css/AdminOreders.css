@@ -1,0 +1,278 @@
+#One_pr_order{
+    background-color: white;
+    border-radius: 9px;
+}
+
+#One_pr_order #img-pr{
+    height: 80%;
+    width: 80%;
+    border-radius: 9px;
+}
+
+#One_pr_order #name_pr{
+    font-size: 0.8em;
+
+
+}
+
+#One_pr_order #discount_pr{
+    font-size: 0.8em;
+}
+
+#One_pr_order #price_pr{
+    font-size: 0.7em;
+    text-decoration: line-through;
+    color: gray;
+}
+
+#One_pr_order #shipping_pr{
+    font-size: 0.8em;
+    color: #1d1b31;
+}
+
+#One_pr_order #order_pr{
+    font-size: 0.9em;
+    color: #1d1b31;
+}
+
+#One_pr_order #buy_all{
+    height: 40px;
+    width: 100%;
+    background-color: #ff389f;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 0 !important;
+    font-size: 0.8em;
+}
+
+#One_pr_order #buy_all:hover{
+    background-color: #f754a8;
+    color: white;
+}
+
+#One_pr_order #del_pr{
+    font-size: 1.4em;
+    margin-right: 0!important;
+
+
+}
+#One_pr_order #del_pr i{
+    cursor: initial !important;
+    margin-right: 0!important;
+
+}
+#One_pr_order #del_pr:hover{
+    color: rgb(233,0,120);
+}
+#One_pr_order i{
+    cursor: none;
+}
+
+#quantity_pr{
+    width: 100% !important;
+}
+
+#add_to .icon{
+    border: 0;
+    border-radius: 15px 0 0 15px;
+    background-color: rgba(233,0,120,0.8);
+}
+#add_to .btn_add{
+    border: 0;
+    font-size: 1em;
+    border-radius: 0 15px 15px 0;
+    background-color:rgba(233,0,120,0.8);
+    color: white;
+}
+#add_to:hover .btn_add{
+    background-color:  rgb(233,0,120);
+}
+#add_to:hover .icon{
+    background-color:  rgb(233,0,120);
+}
+
+#add_ref .icon{
+    border:solid  rgb(233,0,120);
+    border-width:  1px 0 1px 1px ;
+    border-radius: 15px 0 0 15px;
+    background-color: transparent;
+}
+#add_ref .btn_add{
+    border: solid  rgb(233,0,120);
+    font-size: 0.9em;
+
+    border-width:  1px  1px 1px 0;
+    border-radius: 0 15px 15px 0;
+    background-color:transparent;
+    color: rgb(233,0,120);
+}
+#add_ref:hover{
+}#add_ref:hover .btn_add{
+     border-width:  2px  2px 2px 0;
+    font-weight: bold;
+     box-shadow: 0 0em 1em 0em rgba(0,0,0,0.1), inset 0px 0px 0px 0px rgba(0,0,0,0.05);
+
+ }
+#add_ref:hover .icon{
+    border-width:  2px 0 2px 2px ;
+    font-size: 0.9em!important;
+    box-shadow: 0 0em 1em 0em rgba(0,0,0,0.1), inset 0px 0px 0px 0px rgba(0,0,0,0.05);
+
+
+}
+
+
+#order_in .form-select{
+    border: 0;
+    background-color: transparent;
+    font-size: 0.9em;
+    color: #ff389f;
+}
+#order_in .form-select:after{
+    border: 0;
+    box-shadow: 0 0 0 0 !important;
+    background-color: transparent;
+    color: #ff389f;
+    font-weight: bold;
+}
+
+/* search bar */
+#search_or{
+    background-color: transparent;
+
+}
+
+#up_bar{
+    width: calc(100% - 75px) !important;
+    margin-right: 0 !important;
+    margin-left: 75px !important;
+}
+#search_input{
+    border-radius: 40px;
+}
+
+#search_input:focus{
+    border-color: rgb(233,0,120) !important;
+}
+
+
+/*modal send*/
+#modal-send{
+    border-radius: 15px!important;
+}
+#modal-send #close2{
+    background-color: transparent;
+    background-image: url("../img/close.png");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    border: 0;
+}
+
+
+#modal-send .keys_area{
+    border-radius: 9px;
+    border: 1px solid hotpink;
+    height: 9em;
+
+}
+#modal-send .key{
+    border-radius: 9px;
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+#modal-send .del_key{
+    color: #ff389f;
+    cursor: pointer !important;
+}
+
+#modal-send .del_key:hover i{
+    color: orangered;
+}
+
+
+#modal-send .del_key i{
+    color: #ff389f;
+    cursor: pointer !important;
+}
+
+#modal-send .key_count{
+    border-radius: 15px;
+    font-size: 0.7em;
+    height: 1.5em;
+    width: 1.5em;
+    color: white;
+    background-color: deeppink;
+}
+
+#modal-send input{
+    border-top: 0 ;
+    border-left: 0 ;
+    border-right: 0 ;
+    border-bottom: 1px solid rgb(233,0,120);
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    padding-right: 35px;
+    font-size: 0.8em;
+}
+
+#modal-send input:hover{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+
+
+#modal-send input:focus{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+
+#modal-send .icons{
+    height: 17px;
+    width: 17px;
+}
+
+#basic-addon1{
+    border-radius: 0;
+    border: 1px;
+}
+
+#modal-send #send_btn{
+    font-size: 0.8em;
+    color: white;
+    background-color: rgba(233,0,120,0.8);
+    border-radius: 15px;
+    border: 1px solid white;
+}
+#modal-send #send_btn:hover{
+    background-color: rgba(233,0,120,1);
+    border: 1px solid rgba(233,0,120,0.8);
+}
+
+#modal-send #cancel_login{
+    background-color: transparent;
+    border-color: rgb(233,0,120);
+    border-radius: 15px;
+    color:  rgb(233,0,120);
+}
+#modal-send #cancel_login:hover{
+    font-weight: bold;
+}
+
+#modal-send #login_btn_form{
+    background-color: rgb(233,0,120);
+    border-color: rgb(233,0,120);
+    border-radius: 15px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+
+}
+#modal-send #login_btn_form:hover{
+    background-color: rgb(233,0,200);
+
+}
+

@@ -1,0 +1,261 @@
+nav{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white !important;
+
+}
+nav .nav-item{
+
+    font-size: 0.8em;
+    padding: 0 15px;
+    color: black !important;
+}
+
+nav .nav-item a{
+    color: darkslateblue !important;
+    text-decoration: none !important;
+}
+nav .nav-item a .active{
+    border-bottom: 1px solid rgb(233,0,120);
+    color: rgb(233,0,120) !important;
+    background-color: rgba(247,2,147,0.04);
+    border-radius: 0 !important;
+}
+nav i{
+    cursor: pointer ;
+    margin-left: 20px;
+
+}
+nav a:hover,nav i:hover{
+    color: rgb(233,0,120) !important;
+
+}
+nav a:hover{
+    background-color: rgba(247,2,147,0.06);
+    border-radius:45px ;
+    color: rgb(233,0,120) !important;
+}
+nav .navbar-toggler{
+    border: none;
+    outline: none;
+}
+.container img{
+    padding: 0;
+    margin: 0;
+}
+nav .navbar-toggler:hover{
+    background-color: #ffd6eb  ;
+
+}
+
+#login_btn{
+    background-color: transparent;
+    border-radius: 40px;
+    color: rgb(233,0,120);
+    border: 1px solid rgb(233,0,120);
+    font-size: 13px;
+    height: border-box;
+    width: 100px !important;
+}
+#login_btn:hover{
+    background-color: aliceblue;
+    border-radius: 40px;
+    color: rgb(233,0,200);
+}
+
+
+@media screen and (max-width: 990px){
+
+    #navbarSupportedContent ul{
+       float: top;
+        text-align: center;
+    }
+    #navbarSupportedContent{
+
+    }
+    #navbarSupportedContent ul li{
+        padding-top: 10px;
+        text-align: center !important;
+    }
+    nav .nav-item{
+        font-size: 0.9em !important;
+    }
+}
+
+/*Login and sign up*/
+
+#login{
+    border-radius: 15px;
+
+}
+
+#login_btn_form:hover{
+    background-color: white;
+    color: rgb(233,0,120);
+}
+
+#login_btn_form{
+    background-color: rgb(233,0,120);
+    border: 1px solid rgb(233,0,120);
+    color: white;
+}
+
+
+#cancel_login{
+    background-color: gray;
+    @import '~mdb-ui-kit/css/mdb.min.css';
+}
+#cancel_login:hover{
+    background-color: white;
+    color: rgb(233,0,120);
+    border: 1px solid rgb(233,0,120);
+}
+
+#login.icons{
+    height: 17px;
+    width: 17px;
+}
+#login input{
+    border-top: 0 ;
+    border-left: 0 ;
+    border-right: 0 ;
+    border-bottom: 1px solid rgb(233,0,120);
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    padding-right: 35px;
+}
+
+#login input:hover{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+#login #pass:hover{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+
+#login input:focus{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+#login #pass:focus{
+
+    border-bottom: 2px  solid rgb(233,0,120);
+
+}
+
+#signup_btn{
+    background-color: rgb(233,0,120);
+    border-radius: 40px;
+    color: white;
+    border: 1px solid rgb(233,0,120);
+    font-size: 13px;
+    height: border-box;
+    width: 100px !important;
+}
+#signup_btn:hover{
+    background-color: rgb(233,0,200);
+    border-radius: 40px;
+}
+
+#signup_form .form-check-label{
+    font-size: 13px;
+}
+
+#signup_form .form-check-input{
+    background-color: #ff389f !important;
+}
+
+
+
+.account_logo img{
+    height: 2.5em;
+    width: 2.5em;
+}
+.account_logo span{
+    font-size: 0.8em;
+    color: #ff389f;
+}
+.item .name_drop{
+    color: darkslategrey;
+    font-size: 0.9em;
+}
+.item .email_drop{
+    font-size: 0.7em;
+    color: darkslategray;
+}
+#manage_account{
+    border-radius: 40px;
+    width: 160px !important;
+    border-color: #ff389f;
+    background-color: transparent;
+    color: #ff389f;
+    font-size: 0.7em;
+}
+#manage_account:hover{
+
+    background-color: #ff389f;
+    color: white;
+
+}
+#out_account{
+    color: #ff389f;
+    font-size: 1.8em;
+}
+#out_account:hover{
+    color: rgb(233,0,120);
+
+}
+#out_account img{
+    height: 1.4em;
+    width: 1.4em;
+}
+
+.dropdown-menu{
+}
+
+
+.btn-floating{
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 100%;
+    padding: 0 !important;
+    opacity: 0.9;
+}
+.btn-floating:hover{
+    opacity: 1;
+}
+
+.items_btn .btn{
+    opacity: 1;
+}
+.items_btn .btn:hover{
+    box-shadow: 0 0 15px  rgba(233,0,120,0.5);
+}
+
+#scroll_btn{
+    position: fixed ;
+    margin-left: 1% !important;
+    margin-right: 99% !important;
+    z-index: 1;
+    bottom: 10px;
+    background-color: rgb(233,0,120);
+    opacity: 1 !important;
+    border-radius: 9px !important;
+    height: 2.1em !important;
+    width: 2.1em !important;
+}
+
+#scroll_btn:hover{
+    box-shadow: 0 0 15px  rgba(233,0,120,0.5);
+}
+
+/*manage account*/
+
+#logo_manage_pr{
+    height: 7em;
+    width: 8em;
+}
